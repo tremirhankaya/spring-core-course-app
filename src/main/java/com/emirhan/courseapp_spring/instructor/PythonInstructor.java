@@ -1,0 +1,12 @@
+package com.emirhan.courseapp_spring.instructor;
+
+import com.emirhan.courseapp_spring.model.Instructor;
+import org.springframework.stereotype.Component;
+
+@Component
+public class PythonInstructor implements Instructor {
+    @Override
+    public String getTeachingTopic() {
+        return "Python Data Science";
+    }
+}
